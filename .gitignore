@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# 실제 설정 파일은 무시
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+!src/main/resources/application.properties.template
